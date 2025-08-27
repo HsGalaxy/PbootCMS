@@ -19,5 +19,5 @@ if (PHP_VERSION < '5.4') {
     exit('您服务器PHP的版本太低，程序要求PHP版本不小于5.4');
 }
 
-// 引用内核启动文件
+// 引用内核启动文件。
 require dirname(__FILE__) . '/core/start.php';
